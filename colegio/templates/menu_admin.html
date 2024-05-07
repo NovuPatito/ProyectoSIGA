@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario</title>
+        <link href="{% static "imagenes/Pro Learn.jpeg"%}" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="{% static "css/styles.css" %}">
+    </head>
+    <nav class="navbar navbar-expand-lg mb-2 border-bottom border-body" style="background-color: #021D2E;">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <img src="{% static "imagenes/Pro Learn.jpeg"%}" alt="Bootstrap" width="100" style="margin-left: 10px;">
+          <div class="mx-3">
+            <div class="navbar-nav">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end p-1"><a href="/"><button type="button" class="btn btn-lg" id="botonnav">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="bi bi-houses-fill"></i> Inicio
+              </button></a></div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end p-1"><button type="button" class="btn btn-lg" id="botonnav">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="bi bi-newspaper"></i> Noticias
+              </button></div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end p-1"><button type="button" class="btn btn-lg" id="botonnav">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="bi bi-info-square-fill"></i> Info
+              </button></div>
+              
+            </div>
+            </div>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end p-1 mx-4"><a href="/"><button type="button" class="btn btn-danger btn-lg"><i class="bi bi-door-open-fill"></i> Cerrar Sesion</button></a></div>
+    </nav>
+    <body id="bodymenu">
+    <div class="container mt-5" id="fondocontainer">
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-lg" type="button" id="button">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href="/mostrarcrear_curso" style="text-decoration: none; color: #ffffff;"><i class="bi bi-plus-circle-fill"></i> Crear Curso</a>
+            </button>
+            <button class="btn btn-lg" type="button" id="button">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <i class="bi bi-book-fill"></i> Listar Cursos
+            </button>
+            <button class="btn btn-lg" type="button" id="button">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <i class="bi bi-person-lines-fill"></i> Listar Usuarios
+            </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

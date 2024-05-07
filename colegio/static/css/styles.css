@@ -1,0 +1,344 @@
+#bodymenu {
+    background-color: #A0B7BF;
+}
+
+#button {
+    margin: 10px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #021D2E;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}
+
+#button:hover {
+    color: #f5ebeb;
+}
+
+#button span {
+    position: absolute;
+    background: #fff;
+    transition: .5s;
+}
+
+#button span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: -100%;
+}
+
+#button span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: -100%;
+}
+
+#button span:nth-child(3) {
+    width: 2px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+#button span:nth-child(4) {
+    width: 2px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+#button:hover span:nth-child(1) {
+    left: 0;
+}
+
+#button:hover span:nth-child(2) {
+    right: 0;
+}
+
+#button:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+#button:hover span:nth-child(4) {
+    top: 0;
+}
+
+#fondocontainer{
+    background-color: #A0B7BF;
+}
+
+#botonnav{
+    margin: 10px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}
+
+#botonnav:hover {
+    color: #1b1a1a;
+}
+
+#botonnav span {
+    position: absolute;
+    background: #021D2E;
+    transition: .5s;
+}
+
+#botonnav span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: -100%;
+}
+
+#botonnav span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: -100%;
+}
+
+#botonnav span:nth-child(3) {
+    width: 2px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+#botonnav span:nth-child(4) {
+    width: 2px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+#botonnav:hover span:nth-child(1) {
+    left: 0;
+}
+
+#botonnav:hover span:nth-child(2) {
+    right: 0;
+}
+
+#botonnav:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+#botonnav:hover span:nth-child(4) {
+    top: 0;
+}
+
+#botoninicio{
+    margin: 10px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #FFC107;
+    color: #000000;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+    
+}
+
+#botoninicio:hover {
+    color: #1b1a1a;
+}
+
+#botoninicio span {
+    position: absolute;
+    background: #021D2E;
+    transition: .5s;
+}
+
+#botoninicio span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: -100%;
+}
+
+#botoninicio span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: -100%;
+}
+
+#botoninicio span:nth-child(3) {
+    width: 2px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+#botoninicio span:nth-child(4) {
+    width: 2px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+#botoninicio:hover span:nth-child(1) {
+    left: 0;
+}
+
+#botoninicio:hover span:nth-child(2) {
+    right: 0;
+}
+
+#botoninicio:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+#botoninicio:hover span:nth-child(4) {
+    top: 0;
+}
+
+#botonregistro{
+    margin: 10px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #0D6EFD;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+    
+}
+
+#botonregistro:hover {
+    color: #faeded;
+}
+
+#botonregistro span {
+    position: absolute;
+    background: #021D2E;
+    transition: .5s;
+}
+
+#botonregistro span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: -100%;
+}
+
+#botonregistro span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: -100%;
+}
+
+#botonregistro span:nth-child(3) {
+    width: 2px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+#botonregistro span:nth-child(4) {
+    width: 2px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+#botonregistro:hover span:nth-child(1) {
+    left: 0;
+}
+
+#botonregistro:hover span:nth-child(2) {
+    right: 0;
+}
+
+#botonregistro:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+#botonregistro:hover span:nth-child(4) {
+    top: 0;
+}
+
+#botoncerrar{
+    margin: 10px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #DC3545;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}
+
+#botoncerrar:hover {
+    color: #faeded;
+}
+
+#botoncerrar span {
+    position: absolute;
+    background: #021D2E;
+    transition: .5s;
+}
+
+#botoncerrar span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: -100%;
+}
+
+#botoncerrar span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: -100%;
+}
+
+#botoncerrar span:nth-child(3) {
+    width: 2px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+#botoncerrar span:nth-child(4) {
+    width: 2px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+#botoncerrar:hover span:nth-child(1) {
+    left: 0;
+}
+
+#botoncerrar:hover span:nth-child(2) {
+    right: 0;
+}
+
+#botoncerrar:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+#botoncerrar:hover span:nth-child(4) {
+    top: 0;
+}
